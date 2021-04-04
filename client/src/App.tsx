@@ -1,4 +1,4 @@
-import React from "react";
+import { ConfirmModal } from "./components/ConfirmModal";
 import { NoteList } from "./components/NoteList";
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
         </h2>
         <NoteList />
       </div>
+      <ConfirmModal />
     </div>
   );
 }
